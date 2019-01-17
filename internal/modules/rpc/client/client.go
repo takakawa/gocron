@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/rpc/grpcpool"
-	pb "github.com/ouqiang/gocron/internal/modules/rpc/proto"
+	"github.com/takakawa/gocron/internal/modules/logger"
+	"github.com/takakawa/gocron/internal/modules/rpc/grpcpool"
+	pb "github.com/takakawa/gocron/internal/modules/rpc/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

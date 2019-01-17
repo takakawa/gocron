@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ouqiang/gocron/internal/modules/rpc/auth"
-	"github.com/ouqiang/gocron/internal/modules/rpc/server"
-	"github.com/ouqiang/gocron/internal/modules/utils"
+	"github.com/takakawa/gocron/internal/modules/rpc/auth"
+	"github.com/takakawa/gocron/internal/modules/rpc/server"
+	"github.com/takakawa/gocron/internal/modules/utils"
 	"github.com/ouqiang/goutil"
 )
 

@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/jakecoffman/cron"
-	"github.com/ouqiang/gocron/internal/models"
-	"github.com/ouqiang/gocron/internal/modules/app"
-	"github.com/ouqiang/gocron/internal/modules/httpclient"
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/notify"
-	rpcClient "github.com/ouqiang/gocron/internal/modules/rpc/client"
-	pb "github.com/ouqiang/gocron/internal/modules/rpc/proto"
+	"github.com/takakawa/gocron/internal/models"
+	"github.com/takakawa/gocron/internal/modules/app"
+	"github.com/takakawa/gocron/internal/modules/httpclient"
+	"github.com/takakawa/gocron/internal/modules/logger"
+	"github.com/takakawa/gocron/internal/modules/notify"
+	rpcClient "github.com/takakawa/gocron/internal/modules/rpc/client"
+	pb "github.com/takakawa/gocron/internal/modules/rpc/proto"
 )
 
 var (

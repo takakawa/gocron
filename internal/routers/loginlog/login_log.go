@@ -1,10 +1,10 @@
 package loginlog
 
 import (
-	"github.com/ouqiang/gocron/internal/models"
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/utils"
-	"github.com/ouqiang/gocron/internal/routers/base"
+	"github.com/takakawa/gocron/internal/models"
+	"github.com/takakawa/gocron/internal/modules/logger"
+	"github.com/takakawa/gocron/internal/modules/utils"
+	"github.com/takakawa/gocron/internal/routers/base"
 	"gopkg.in/macaron.v1"
 )
 
